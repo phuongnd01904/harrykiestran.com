@@ -1,0 +1,89 @@
+header .nav{
+    display: inline-block;
+    
+}
+
+header .nav li{
+    display: inline-block;
+}
+
+footer{
+    margin-top: 50px;
+    background-color: #734526;
+    color: white;
+    min-height: 50px;
+}
+.h-section{
+    position: relative;
+    min-height: 300px;
+}
+
+.h-section-about{
+    background-image: url(images/subtraction_3.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+
+.h-section-projects{
+    background-image: url(images/jesus_kiteque_wn_kyahwcis_unsplash.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    background-color: #734526;
+    min-height: 211px;
+}
+
+.item-align-bottom{
+    position: absolute;
+    bottom: 0;
+}
+
+.right160px
+{
+    left: auto;
+    right: 160px;
+}
+
+.item-align-center{
+    align-items: center;
+    
+}
+
+.text-black a{
+    color: black;
+}
+
+.text-black .nav-link.active{
+    color: #734526;
+    border-bottom: 2px #734526 solid;
+    border-radius: 0;
+    background-color: transparent;
+}
+
+.text-white{
+    color: white;
+}
+
+.text-white a{
+    color: white;
+}
+
+.text-white .nav-link.active{
+    color: white;
+    border-bottom: 2px white solid;
+    border-radius: 0;
+    background-color: transparent;
+}
+
+.line-break
+{
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
+    margin: 50px;
+    border: 1px solid #734526;
+}
+
+.text-align-center{
+    text-align: center
+}
